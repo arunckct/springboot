@@ -10,8 +10,11 @@ public class SampleBootProjectApplication {
 
 	@GetMapping("/")
 	public String home() {
-		return "Welcome to red-hat project";
+		return "Welcome to red-hat project open Shift";
 	}
+	
+	
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SampleBootProjectApplication.class, args);
 	}
